@@ -302,7 +302,8 @@ sudo lxc start $NAME
 sleep 3
 
 echo -e '\e[0;92m\nConteiner '$NAME' is ready.\nInstallation LXD is completed.\e[0m'
-
+sudo systemctl enable docker.service
+sudo systemctl start docker.service
 
 # clean & restart
 echo -e '\e[0;92m\nCleaning ...\e[0m'
