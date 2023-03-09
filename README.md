@@ -3,3 +3,4 @@ Zatím velmi rozbitá a nefunkční verze. Proto to dávám sem, aby se tento "s
 ![plocha](plocha.png)
 
 - zatim nestahuje gns3 packettracer a wireshark
+- nejde yay aspoň to spravim
