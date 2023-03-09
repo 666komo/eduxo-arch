@@ -88,6 +88,7 @@ cd /home/sysadmin/eduxo/ && git pull > /dev/null 2>&1
 echo -e '\e[0;92m\nInstalling AUR\e[0m'
 sudo pacman --noconfirm -S --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
+sudo chmod 777 yay
 cd yay
 makepkg -si
 cd /home/sysadmin
